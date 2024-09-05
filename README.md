@@ -1,5 +1,4 @@
 ---
-
 # Sign2Text - Vision Transformer Powered Video Processing
 
 **Sign Language requires precise video modality data processing for better accuracy.**  
