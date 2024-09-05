@@ -1,4 +1,3 @@
----
 # Sign2Text - Vision Transformer Powered Video Processing
 
 **Sign Language requires precise video modality data processing for better accuracy.**  
@@ -17,5 +16,3 @@ Click the image above or [this link](https://youtu.be/2n_BUWRjtJI) to see the vi
 - **Vision Transformer (ViT)**: Treats each video frame as a patch for parallel processing.
 - **Patch-based Approach**: Each frame becomes a critical component, helping the model understand sign language gestures in depth.
 - **Why ViT?**: ViTs excel at learning spatial and temporal patterns, making them ideal for sign language processing.
-
----
