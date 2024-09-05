@@ -12,7 +12,7 @@ class Chat:
 
     def __init__(self):
 
-        genai.configure(api_key="AIzaSyDxwzSTS5XWJVDsKe-luOk2Wuwe5CKTyvQ")
+        genai.configure(api_key="<api_key>")
 
         # Create the model
         generation_config = {
