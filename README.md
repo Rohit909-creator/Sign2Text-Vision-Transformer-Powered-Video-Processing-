@@ -52,7 +52,7 @@ This work has been submitted to the **2024 IEEE International Conference on Arti
 - **Training Accuracy**: The model achieved **80% accuracy** after 100 epochs on 351 word classes.
 - **Training Loss**: The training loss decreased consistently, showcasing progressive learning and refinement over time.
   
- ![Graph](./graph(1).png) 
+ ![Graph](./graph.png) 
 
 
 ---
