@@ -15,7 +15,8 @@ Click the image above or [this link](https://youtu.be/2n_BUWRjtJI) to see the vi
 ## 🔢 Dataset
 ### Sign Language ViT Dataset
 Our custom dataset includes 128-frame video clips (4-5 seconds each) from YouTube, the INCLUDE (Indian Lexicon Sign Language Dataset), and other sources. The dataset covers 351 sign language classes, providing a comprehensive foundation for training.
- Link for dataset: [Sign Language ViT Dataset](https://www.kaggle.com/datasets/tonystark213123/sign-language-vit-dataset) 
+
+- Link for dataset: [Sign Language ViT Dataset](https://www.kaggle.com/datasets/tonystark213123/sign-language-vit-dataset) 
 
  ### **Data Preprocessing**  
 - Each video is processed **frame by frame** using **OpenCV** and combined into a single image, with each frame represented as a patch.
@@ -32,10 +33,17 @@ The **PHI-1.5B** language model was fine-tuned using **900 sentence pairs** gene
 - **Patch-based Approach**: Each frame becomes a critical component, helping the model understand sign language gestures in depth.
 - **Why ViT?**: ViTs excel at learning spatial and temporal patterns, making them ideal for sign language processing.
 
+### Workflow
+
+![Workflow](./workflow.png) 
+
 
 ---
 ## 🏆 Conference Submission
 This work has been submitted to the **2024 IEEE International Conference on Artificial Intelligence in Engineering and Technology (IICAIET 2024)**. It showcases the potential of Vision Transformers combined with advanced language models in sign language translation.
+
+**Paper Title:**  
+-*Sign2Text: Deep Learning-based Sign Language Translation System Using Vision Transformers and PHI-1.5B*
 
 ---
 
@@ -43,5 +51,8 @@ This work has been submitted to the **2024 IEEE International Conference on Arti
 
 - **Training Accuracy**: The model achieved **80% accuracy** after 100 epochs on 351 word classes.
 - **Training Loss**: The training loss decreased consistently, showcasing progressive learning and refinement over time.
+  
+ ![Graph](./graph(1).png) 
+
 
 ---
